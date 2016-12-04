@@ -40,20 +40,6 @@ function wtr_error_notice( $message )
 }
 
 /**
- * Basic input filtering
- *
- * @since 1.0.0
- *
- * @param $string
- *
- * @return string
- */
-function wtr_clean( $string )
-{
-    return htmlentities2( stripslashes( $string ) );
-}
-
-/**
  * Displays success message with WordPress default theme.
  *
  * @since  0.0.0
@@ -83,4 +69,18 @@ function wtr_fixed_notice( $message )
     echo "<div class='wtr-fixed-notice'>";
     echo "<p>" . $message . "<a class='wtr-fixed-notice-remove' href='javascript:void(0)'>x</a></p>";
     echo "</div>";
+}
+
+/**
+ * Basic input filtering
+ *
+ * @since 1.0.0
+ *
+ * @param $string
+ *
+ * @return string
+ */
+function wtr_clean( $string )
+{
+    return htmlentities2( stripslashes( $string ) );
 }
