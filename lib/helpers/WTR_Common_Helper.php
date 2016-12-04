@@ -11,7 +11,7 @@
  */
 
 /**
- * Localize text strings
+ * Localize text strings.
  *
  * @since  0.0.0
  * @see  __()
@@ -72,7 +72,7 @@ function wtr_fixed_notice( $message )
 }
 
 /**
- * Basic input filtering
+ * Basic input filtering.
  *
  * @since 1.0.0
  *

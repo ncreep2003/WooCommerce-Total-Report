@@ -29,7 +29,7 @@ class Woocommerce_Total_Report
     }
 
     /**
-     * Enqueue required global styles and scirpts
+     * Enqueue required global styles and scripts.
      *
      * @access public
      * @since  0.0.0
@@ -49,7 +49,7 @@ class Woocommerce_Total_Report
     }
 
     /**
-     * Add notice if bbPress plugin is not activated
+     * Add notice if WooCommerce plugin is not activated.
      *
      * @since  0.0.0
      * @access public
@@ -66,7 +66,7 @@ class Woocommerce_Total_Report
     }
 
     /**
-     * Error notice: WooCommerce Plugin is required for this plugin to work
+     * Error notice: WooCommerce Plugin is required for this plugin to work.
      *
      * @access public
      * @since  0.0.0
