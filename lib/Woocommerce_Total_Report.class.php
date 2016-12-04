@@ -78,8 +78,8 @@ class Woocommerce_Total_Report
         wtr_error_notice(
             wtr_translate(
                 'WooCommerce Total Report plugin requires
-				<a href="https://wordpress.org/plugins/woocommerce/">WooCommerce</a>
-				plugin to work. Please make sure that WooCommerce is installed and activated.'
+		 <a href="https://wordpress.org/plugins/woocommerce/">WooCommerce</a>
+		 plugin to work. Please make sure that WooCommerce is installed and activated.'
             )
         );
     }
