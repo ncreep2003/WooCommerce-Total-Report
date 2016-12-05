@@ -1,0 +1,31 @@
+{
+  "name": "woocommerce-total-report",
+  "version": "0.0.0",
+  "description": "A complete reporting platform for WooCommerce.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ankitpokhrel/WooCommerce-Total-Report.git"
+  },
+  "keywords": [
+    "woocommerce total report",
+    "wordpress total report",
+    "wc total report",
+    "wp total report"
+  ],
+  "author": "Ankit Pokhrel",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/ankitpokhrel/WooCommerce-Total-Report/issues"
+  },
+  "homepage": "https://github.com/ankitpokhrel/WooCommerce-Total-Report#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-notify": "^2.2.0",
+    "gulp-sass": "^2.3.2"
+  }
+}
