@@ -1,0 +1,26 @@
+.wtr-fixed-notice {
+  background-color: $white;
+  position: fixed;
+  z-index: 999999;
+  width: 100%;
+  color: $white;
+  text-align: center;
+  height: 36px;
+  box-shadow: 0 0 5px 1px $black;
+  top: 0;
+}
+
+.wtr-fixed-notice > p {
+  background: red none repeat scroll 0 0;
+  padding: 5px;
+  font-family: helvetica, 'sans-serif';
+  font-weight: bold;
+  font-size: 14px;
+}
+
+a.wtr-fixed-notice-remove {
+  color: $white;
+  position: relative;
+  float: right;
+  right: 20px;
+}
