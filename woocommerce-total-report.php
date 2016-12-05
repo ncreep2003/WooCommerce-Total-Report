@@ -26,3 +26,4 @@ define( 'WTR_PLUGIN_BASE', plugin_basename( __FILE__ ) );
 
 include "lib/helpers/WTR_Common_Helper.php";
 include "lib/Woocommerce_Total_report.class.php";
+include "lib/admin/WTR_Admin.class.php";
