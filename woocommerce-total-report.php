@@ -24,6 +24,6 @@ define( 'WTR_TEXT_DOMAIN', 'woocommerce-total-report' );
 define( 'WTR_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
 define( 'WTR_PLUGIN_BASE', plugin_basename( __FILE__ ) );
 
-include "lib/helpers/WTR_Common_Helper.php";
-include "lib/Woocommerce_Total_report.class.php";
-include "lib/admin/WTR_Admin.class.php";
+include 'lib/helpers/WTR_Common_Helper.php';
+include 'lib/Woocommerce_Total_report.class.php';
+include 'lib/admin/WTR_Admin.class.php';
