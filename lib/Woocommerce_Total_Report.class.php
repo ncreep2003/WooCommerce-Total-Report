@@ -41,7 +41,7 @@ class Woocommerce_Total_Report
     public function enqueue_global_scripts()
     {
         //enqueue styles
-        wp_enqueue_style( 'wtr-styles', plugins_url( '/resources/css/wtr-styles.css', dirname( __FILE__ ) ) );
+        wp_enqueue_style( 'wtr-styles', plugins_url( '/build/css/wtr-styles.css', dirname( __FILE__ ) ) );
 
         //enqueue scripts
         wp_enqueue_script( 'wtr-scripts', plugins_url( '/resources/js/wtr-scripts.js', dirname( __FILE__ ) ),
