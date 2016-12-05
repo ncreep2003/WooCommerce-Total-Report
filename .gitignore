@@ -5,3 +5,5 @@
 
 coverage
 --no-check-certificate
+
+node_modules
